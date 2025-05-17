@@ -7,17 +7,6 @@
 
 A machine learning system for optimizing Airbnb listing prices and predicting customer churn using advanced analytics and ML techniques.
 
-## 📋 Table of Contents
-- [Overview](#overview)
-- [Features](#features)
-- [Project Structure](#project-structure)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Model Details](#model-details)
-- [Configuration](#configuration)
-- [Testing](#testing)
-- [Results and Metrics](#results-and-metrics)
-
 ## 🎯 Overview
 
 This project implements a comprehensive system for:
