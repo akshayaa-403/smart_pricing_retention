@@ -13,12 +13,6 @@ logging.basicConfig(
 )
 
 class DataPreprocessor:
-    def __init__(self, current_time: str = "2025-05-17 19:00:52", current_user: str = "akshayaa-403"):
-        self.current_time = current_time
-        self.current_user = current_user
-        self.scaler = RobustScaler()
-        logging.info(f"Initializing DataPreprocessor at {self.current_time} by {self.current_user}")
-
     def load_data(self, data_paths: dict) -> Tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame, gpd.GeoDataFrame]:
         try:
             logging.info("Loading datasets...")
